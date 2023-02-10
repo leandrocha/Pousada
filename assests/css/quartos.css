@@ -1,3 +1,7 @@
+.quartos {
+    padding: 16px;
+}
+
 .quartos__imagens {
     display: grid;
     grid-template-columns: 1fr;
