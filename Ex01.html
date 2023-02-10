@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousada Ponta da Asa</title>
+    <link rel="stylesheet" href="assests/css/reset.css">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assests/css/cabecalho.css">
+    <link rel="stylesheet" href="assests/css/menu.css"> 
+    <link rel="stylesheet" href="assests/css/destaque.css">   
+    <link rel="stylesheet" href="assests/css/cards.css">
+    <link rel="stylesheet" href="assests/css/video.css">
+    <link rel="stylesheet" href="assests/css/quartos.css">
+    <link rel="stylesheet" href="assests/css/reserva.css">
+    <link rel="stylesheet" href="assests/css/ultimas-fotos.css">
+</head>
+<body class="principal">
+    <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <img src="assests/imagens/logo.jpg" alt="" class="cabecalho__logo">
+    </header>
+    <nav class="menu">
+        <div class="menu__item">
+            <img src="assests/imagens/logo.jpg" alt="" class="menu__item-logo">
+            <a href="#" class="menu__link menu__link--pousada"><i></i>Pousada</a>
+            <a href="#" class="menu__link menu__link--acomodacoes"><i></i>Quartos</a>
+            <a href="#" class="menu__link menu__link--blog"><i></i>Blog</a>
+            <a href="#" class="menu__link menu__link--duvidas"><i></i>Dúvidas</a>
+            <a href="#" class="menu__link menu__link--contato"><i></i>Contato</a>
+        </div>
+    </nav>
+    <main class="main">
+        <section class="land">
+            <section class="reserva">
+                <form action="#" class="reserva__form">
+                    <label for="txtDataInicio" class="reserva__form-label reserva__form-label--data">Data Inicial</label>
+                    <input type="datetime" id="txtDataInicio" class="reserva__form-input reserva__form-input--data">
+                    <label for="txtDataFinal" class="reserva__form-label reserva__form-label--data">Data Final</label>
+                    <input type="datetime" id="txtDataFinal" class="reserva__form-input reserva__form-input--data">
+                    <label for="txtAdultos" class="reserva__form-label">Adultos</label>
+                    <label for="txtCriancas" class="reserva__form-label">Crianças</label>
+                    <input type="number" id="txtAdultos" class="reserva__form-input">
+                    <input type="text" id="txtCriancas" class="reserva__form-input">
+                </form>
+            </section>
+            <section class="ultimas-fotos">
+                <div class="ultimas-fotos__info">
+                    <h2 class="ultimas-fotos__titulo">Fotos recentes</h2>
+                    <p class="ultimas-fotos__link">Ver  mais</p>
+                    <article class="ultimas-fotos__card">
+                        <img src="assests/imagens/foto1.png" alt="" class="ultimas-fotos__card-imagem">
+                        <p class="ultimas-fotos__card-descricao ultimas-fotos__card-descricao--data">01/02/2023</p>
+                        <p class="ultimas-fotos__card-descricao ultimas-fotos__card-descricao--view"><i></i>100</p>
+                    </article>
+                    <article class="ultimas-fotos__card">
+                        <img src="assests/imagens/foto2.png" alt="" class="ultimas-fotos__card-imagem">
+                        <p class="ultimas-fotos__card-descricao ultimas-fotos__card-descricao--data">02/02/2023</p>
+                        <p class="ultimas-fotos__card-descricao ultimas-fotos__card-descricao--view"><i></i>120</p>
+                    </article>
+                    <article class="ultimas-fotos__card">
+                        <img src="assests/imagens/foto3.png" alt="" class="ultimas-fotos__card-imagem">
+                        <p class="ultimas-fotos__card-descricao ultimas-fotos__card-descricao--data">03/02/2023</p>
+                        <p class="ultimas-fotos__card-descricao ultimas-fotos__card-descricao--view"><i></i>95</p>
+                    </article>
+                </div>
+            </section>            
+            <section class="destaque container">
+                <div class="destaque__info">
+                    <h1 class="destaque__titulo titulo">Recarregue suas energias no Litoral Sul de Alagoas!</h1>
+                    <p class="destaque__legenda legenda">Venha conhecer a beleza natural e exuberante da Praia de Miaí de Cima! Aqui é o local ideal para descansar com a família e amigos!</p>
+                </div>
+            </section>
+            <section class="cards container">            
+                <article class="card">
+                    <p class="card-titulo">Natureza Preservada</p>
+                    <img src="assests/imagens/praia.png" alt="" class="card-imagem">
+                </article>
+                <article class="card">
+                    <p class="card-titulo">Gastronomia Variada</p>
+                    <img src="assests/imagens/gastronomia.png" alt="" class="card-imagem">
+                </article>
+                <article class="card">
+                    <p class="card-titulo">Passeios</p>
+                    <img src="assests/imagens/barco.png" alt="" class="card-imagem">
+                </article>
+            </section>
+        </section>
+        <section class="video">
+            <iframe class="video__video" width="100%" height="315" class="video__video" src="https://www.youtube.com/embed/6vihEHS60ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2 class="video__titulo titulo">Você merece férias na Pousada Ponta da Asa</h2>
+            <p class="video__legenda legenda">Venha recarregar suas energia em Miaí de Cima, hospedando-se na Pousada Ponta da Asa! Nossos bangalôs estão te esperando para um descanso merecido!</p>
+            <button class="video__botao botao">Fazer minha reserva</button>
+        </section>
+        <section class="quartos">
+            <h2 class="quartos__titulo titulo">Quartos aconchegantes e um cenário único do Litoral Sul de Alagoas!</h2>
+            <div class="quartos__info">
+                <p class="quartos__legenda legenda">Pousada Ponta da Asa oferece um ambiente rústico e ao mesmo tempo charmoso, aconchegante e tranquilo. Desfrute de momentos felizes com a família e amigos!</p>
+                <button class="quartos__botao botao">Conhecer os Bangalôs</button>
+            </div>
+            <div class="quartos__imagens">
+                <img src="assests/imagens/quarto1.png" alt="" class="quartos__imagem">
+                <img src="assests/imagens/quarto2.png" alt="" class="quartos__imagem">
+                <img src="assests/imagens/quarto3.png" alt="" class="quartos__imagem">
+                <img src="assests/imagens/quarto4.png" alt="" class="quartos__imagem">
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

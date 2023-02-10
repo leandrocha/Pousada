@@ -1,0 +1,47 @@
+.ultimas-fotos__info {
+    display: none;
+}
+
+.ultimas-fotos__info .containeir{
+    padding: 0;
+}
+
+@media screen and (min-width:1024px) {
+    .ultimas-fotos {
+        grid-row: 1 / span 3;
+        grid-column: 2;
+    }
+
+    .ultimas-fotos__info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .ultimas-fotos__link {
+        justify-self: end;
+        font-size: 0.8rem;
+        color: #0480DC;
+    }
+    
+    .ultimas-fotos__card {
+        grid-column: span 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+    
+    .ultimas-fotos__card-imagem {
+        grid-column: span 2;
+        width: 230px;
+    }
+
+    .ultimas-fotos__card-descricao {
+        font-size: 0.9rem;
+    }
+    
+}

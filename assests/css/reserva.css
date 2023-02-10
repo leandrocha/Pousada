@@ -1,0 +1,27 @@
+.reserva {
+    height: 190px;
+    box-sizing: border-box;
+}
+
+.reserva__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 1rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+}
+
+.reserva__form-label--data {
+    grid-column: span 2;
+}
+
+.reserva__form-input {
+    border: 1px solid black;
+    min-width: 0;
+}
+
+.reserva__form-input--data {
+    grid-column: span 2;
+}

@@ -1,0 +1,23 @@
+.video {
+    background-color: #0E7B91;
+}
+
+.video__titulo {
+    color: #E9F9F9;
+}
+
+.video__legenda {
+    color: #1CCBDB;
+}
+
+.video__botao {
+    background-color: #16bece;
+}
+
+@media screen and (min-width:1024px) {
+    .video {
+        padding: 16px
+    }
+
+    
+}

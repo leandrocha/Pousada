@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot');
+    src: url('../font/fontello.eot') format('embedded-opentype'),
+         url('../font/fontello.woff') format('woff'),
+         url('../font/fontello.ttf') format('truetype'),
+         url('../font/fontello.svg') format('svg');
+  }
+
+body {
+    font-family: 'Rubik', 'fontello', Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+.container {
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+*/
+
+.titulo {
+    font-size: 1.5rem;
+    color: #FF6E00;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+}
+
+.legenda {
+    color: #4F5665;
+    line-height: 1.2rem;
+}
+
+.botao {
+    background-color: #0E7B91;
+    padding: 0.9rem;
+    border-radius: 8px;
+    color: #E9F9F9;
+    margin-top: 1rem;
+}
+
+.land {
+    padding: 16px;
+}
+
+@media screen and (min-width:1024px){
+    .principal {
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+
+    .land {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: 190px 120px 1fr;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+}
+
+
+

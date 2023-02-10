@@ -1,0 +1,37 @@
+.quartos__imagens {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.quartos__imagem {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:1024px) {
+    .quartos {
+        padding: 16px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    .quartos__titulo {
+        grid-column: span 2;
+    }
+
+    .quartos__imagens {
+        grid-template-columns: 1fr 1fr;
+        grid-column: 2;
+        grid-row: 2;
+        margin-top: 0px;
+    }
+
+    .quartos__legenda {
+        line-height: 2rem;
+        text-align: justify;
+        width: 90%;
+    }
+}
